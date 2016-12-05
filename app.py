@@ -5,7 +5,7 @@ from bottle import route, run
 
 @route('/')
 def index():
-    return "<h1> OpenShift is Awesome!</h1>"
+    return "<h1> OpenShift is handsomely Awesome!</h1>"
 
 if __name__ == '__main__':
     run(host='0.0.0.0', port=8080)
